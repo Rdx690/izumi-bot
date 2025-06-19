@@ -12,11 +12,11 @@ izumi({
 
     let menu = `\n┏━━━〔 ${config.BOT_NAME} 〕━━━┓
 ┃  
-┃  ⦿ OWNER    : ${config.OWNER_NAME}
-┃  ⦿ COMMANDS : ${commands.filter((command) => command.pattern).length}
-┃  ⦿ MODE     : ${mode ? 'PRIVATE' : 'PUBLIC'} 
-┃  ⦿ PREFIX   : ${PREFIX}
-┃  ⦿ VERSION  : ${version}
+┃  ※ OWNER    : ${config.OWNER_NAME}
+┃  ☆ COMMANDS : ${commands.filter((command) => command.pattern).length}
+┃  ※ MODE     : ${mode ? 'PRIVATE' : 'PUBLIC'} 
+┃  ☆ PREFIX   : ${PREFIX}
+┃  ※ VERSION  : ${version}
 ┃  
 ┗━━━━━━━━━━━━━━━━━┛\n${readMore}`;
 
